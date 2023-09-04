@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -mindepth 1 -maxdepth 1 -print | grep -c /
+find . -type d -not -name '.'| wc -l
